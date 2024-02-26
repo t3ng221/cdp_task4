@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Table</title>
+    <link rel="stylesheet" href="Fetch_Data.css">
+</head>
+<body>
+
+    <h1>Users Table</h1>
+
+    <button onclick="fetchAndDisplayData()">Fetch Data</button>
+    
+    <table border="2">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Street</th>
+            </tr>
+        </thead>
+        <tbody id="usersTableBody"></tbody>
+    </table>
+    
+    <script src="fetch.js"></script>
+    
+
+</body>
+</html>
